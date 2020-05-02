@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" 
+href="file:///D:/fontawesome-free-5.12.1-web/fontawesome-free-5.12.1-web/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>my slidenav3</title>
+	<style>
+		*{box-sizing: border-box;}
+		.sidenav{
+			height:100%;
+			background-color:#ff8c1a;
+			padding: 60px 0px 0px 2px;
+			width:0px;
+			overflow-x: hidden;
+			display: block;
+			position: fixed;
+			left: 0px;
+			top: 0px;
+			transition: 2s;
+		}
+		.sidenav a{
+					padding: 8px 0px 8px 50px;
+					font-size: 30px;
+					display: block;
+					text-decoration: none;
+					color:#d9d9d9;
+					}
+		.sidenav a:hover{
+						color:white;
+						}
+		.close{
+				position: absolute;
+				right: 25px;
+				top: 10px;
+				
+				}
+		.open{
+			cursor: pointer;
+			font-size: 30px;
+			transition: 2s;
+			position: absolute;
+			top:0px;
+			z-index: -1;
+			font-size: 100px;
+
+			}
+			img{
+				height:200px;
+				width:200px;
+				margin-left: 60px;
+				border-radius: 100px;
+				border:10px solid #ffc299;
+				}
+			.myname{
+					font-family: 'Lobster Two', cursive;
+					font-size: 30px;
+					}
+			.mytitle{
+					font-family: 'Concert One', cursive;
+					font-size: 25px;
+					margin-top: -50px;
+					}
+			.main{
+					padding: 10px 100px 10px 100px;
+					}
+
+			.mypara1 h4{
+						font-family: 'Baloo Bhai', cursive;
+						text-align: center;
+						font-size: 70px;
+						
+						}
+			.mypara1 h4 .one{
+							color:#e65c00;
+							}
+		
+			
+			.mypara2{
+					
+					width:100%;
+					height:100%;
+					padding:10px 100px 10px 100px;
+					border:2px solid red;
+					margin: 10px 0px 10px 0px;
+					overflow: hidden;
+					}
+			
+
+			.mypara2 h1{
+						color:#e65c00;
+						text-align: center;
+						}
+			.mypara2 .webdesign{
+						width:30%;
+						border:2px solid red;
+						float: left;
+						height:90%;
+						padding:20px;
+						margin: 10px;
+						font-size: 30px;
+						box-shadow: 5px 5px 2px red;
+								}
+			.mypara2 .webdevlop{
+								width:30%;
+								height:90%;
+								border:2px solid red;
+								float:left;
+								padding:20px;
+								margin: 10px;
+								font-size: 30px;
+								box-shadow: 5px 5px 2px red;
+								}
+			.mypara2 .database{
+								width:30%;
+								height:90%;
+								border:2px solid red;
+								float:left;		
+								padding: 20px;
+								margin: 10px;
+								font-size: 30px;
+								box-shadow: 5px 5px 2px red;
+								}
+			.aboutme{
+								padding:20px 50px 0px 50px;
+								height:100%;
+								width:100%;
+								border:2px solid red;
+								}
+			.aboutme .three{
+								font-size: 45px;
+								color:#ff4d4d;
+								font-weight: bold;
+								}
+			.aboutme .four{
+							font-size: 30px;
+							color:#ff5050;
+							}
+			.aboutme .five{
+							font-size: 40px;
+							color:#cc6600;
+							}
+			.aboutme .parain{
+							font-size: 40px;
+							}
+			.exp{
+				width:100%;
+				height:100%;
+				border:2px solid red;
+				padding: 10px 100px 50px 100px;
+				}
+			.exp h1{
+					text-align: center;
+					color:#e65c00;
+					font-size: 100px;
+					
+					
+					}
+			
+			
+			.exp p{
+				
+				font-size: 50px;
+					}
+			.education{
+						width:100%;
+						height:100%;
+						border:2px solid red;
+						margin: 20px 0px 20px 0px;
+						font-size: 50px;
+						padding: 10px 100px 10px 100px;
+						}
+			.education h1{
+						text-align: center;
+						font-size: 100px;
+						}
+			.myskills{
+						width:100%;
+						height:100%;
+						border:2px solid red;
+						padding: 10px 10px 20px 100px;
+						margin:10px 0px 20px 0px;
+						}
+			.myskills h1{
+						text-align: center;
+						font-size: 100px;
+						}
+			.myskills h3{
+						font-size: 50px;
+						}
+			.myskills ul li{
+							font-size: 100px;
+							}
+			.award{
+					width:100%;
+					height:100%;
+					border:2px solid red;
+					padding: 10px 100px 10px 100px;
+					font-size: 50px;
+					}
+			.award p{
+					line-height: 100px;
+					}
+			.award h1{
+					font-size: 100px;
+					}
+			.intrest{
+					width:100%;
+					height:100%;
+					border:2px solid red;
+					padding: 10px 100px 10px 100px;
+					font-size: 50px;
+					margin:10px 0px 20px 0px;
+					}
+			.intrest h1{
+						font-size: 100px;
+						}
+			h1{
+				color:#e65c00;
+				text-align: center;
+				}
+				.award p i{color:#cccc00;}
+				html{
+					scroll-behavior:smooth;
+				}
+				
+				@media(max-width:1300px){
+				.mypara2 .webdesign,.mypara2 .webdevlop,.mypara2 .database
+				{width:100%;float:none;font-size: 25px;display: block;}}
+				@media(max-width: 900px){
+.aboutme .parain{font-size: 40px;}
+.exp p,.myskills h3,.aboutme .four,.intrest{font-size: 40px;}
+.mypara1 h4,.aboutme .three,{font-size: 60px;}
+.exp h1,.education h1,.myskills h1,.myskills ul li,.award h1,.intrest h1{font-size: 50px;}
+.award p{line-height: 80px;}
+.mypara1 h4,.mypara1 .one{font-size: 50px;}
+.aboutme .three,.aboutme .five{font-size: 30px;}
+.award p{font-size: 35px;}
+.education li{font-size: 30px;}
+.mypara2 .webdesign,.mypara2 .webdevlop,.mypara2 .database
+				{width:100%;float:none;font-size: 20px;display: block;}
+				.aboutme{padding:15px 20px 0px 15px;}
+				.myskills h3{font-size:30px}
+				.open{font-size: 25px}}
+
+@media(max-width: 600px){
+.aboutme .parain{font-size: 20px;}
+.exp p,.myskills h3,.aboutme .four,.intrest{font-size: 20px;}
+.mypara1 h4,.aboutme .three,{font-size: 30px;}
+.exp h1,.education h1,.myskills h1,.myskills ul li,.award h1,.intrest h1{font-size: 25px;}
+.award p{line-height: 40px;}
+.mypara1 h4,.mypara1 .one{font-size: 30px;}
+.aboutme .three,.aboutme .five{font-size: 20px;}
+.award p{font-size: 25px;}
+.education li{font-size: 20px;}
+.mypara2 .webdesign,.mypara2 .webdevlop,.mypara2 .database
+				{width:100%;float:none;font-size: 15px;display: block;}
+				.aboutme{padding:10px 10px 0px 10px;}
+				.myskills h3{font-size:15px}
+				.open{font-size: 23px}}
+
+@media(max-width: 400px){
+.aboutme .parain{font-size: 15px;}
+.exp p,.myskills h3,.aboutme .four,.intrest{font-size: 15px;}
+.mypara1 h4,.aboutme .three,{font-size: 20px;}
+.exp h1,.education h1,.myskills h1,.myskills ul li,.award h1,.intrest h1{font-size: 10px;}
+.award p{line-height: 20px;}
+.mypara1 h4,.mypara1 .one{font-size: 20px;}
+.aboutme .three,.aboutme .five{font-size: 10px;}
+.award p{font-size: 15px;}
+.education li{font-size: 12px;}
+.mypara2 .webdesign,.mypara2 .webdevlop,.mypara2 .database
+				{width:100%;float:none;font-size: 15px;display: block;}
+				.aboutme{padding:5px 5px 0px 5px;}
+				.myskills h3{font-size:8px}
+				.open{font-size: 20px}}
+
+				
+	</style>
+</head>
+<body>
+	
+<div class="sidenav" id="myslidenav">
+	<img src="img/b1.jpg"/>
+	<a href="#"><span class="myname">Ajit Kumar Gupta</span></a>
+	
+	<a href="#" class="close" onclick ="closebtn()">&times;</a>
+	
+	<a href="#main">ABOUT</a>
+	<a href="#exp">EXPERIENCE</a>
+	<a href="#education">EDUCATION</a>
+	<a href="#myskills">SKILLS</a>
+	<a href="#intrest">INTRESTS</a>
+	<a href="#award">AWARDS</a>
+</div>
+<section id="myportfolio">
+<span class="open" onclick ="openbtn()">&#9776;</span>
+<section>
+	<div class="mypara1">
+		<h4>MY<span class="one"> PORTFOLIO</span></h4>
+	</div>
+	<div class="aboutme">
+		<p class="main" id="main"><span class="three">AJIT KUMAR GUPTA</span><br>
+<span class="four">GREATER NOIDA· ALPHA-1, 80810·(317) 585-8468·</span> 
+<span class="five"><br>Email:- ajitgupta9639@gmail.com</span><br><br>
+<span class="parain">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</span></p>
+	</div>
+	<div class="mypara2">
+		<div class="webdesign">
+			<h1>WEB DESIGN</h1>
+			<P>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</P>
+		</div>
+		<div class="webdevlop">
+			<h1>WEB DEVLOPER</h1>
+			<P>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</P>
+		</div>
+		<div class="database">
+			<h1>DATABASE</h1>
+			<P>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.Collaboratively administrate empowered</P>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="exp" id="exp">
+		<h1>EXPERIENCE</h1>
+		<p>.Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+	</div>
+</section>
+<section>
+	<div class="education" id="education">
+		<h1>EDUCATION</h1>
+		<ul>
+			<li>BACHELOR OF SCIENCE Computer Science -2019</li>
+			<li>INTERMIDIATE -2016</li>
+			<li>HIGH SCHOOL -2014</li>
+		</ul>
+	</div>
+</section>
+<section>
+	<div class="myskills" id="myskills">
+		<h1>MY SKILLS</h1>
+		<h3>PROGRAMMING LANGUAGES & TOOLS</h3>
+		<ul>
+			<li><i class="fab fa-html5"></i></li>
+			<li><i class="fab fa-css3-alt"></i></li>
+			<li><i class="fab fa-js"></i></li>
+			<li><i class="fab fa-bootstrap"></i></li>
+			<li><i class="fab fa-wordpress"></i></li>
+			<li><i class="fas fa-database"></i></li>
+		</ul>
+	</div>
+</section>
+<section>
+	<div class="intrest" id="intrest">
+	<h1>INTERESTS</h1>
+	<p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+
+When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+</div>
+</section>
+<section>
+	
+	<div class="award" id="award">
+	<h1>AWARDS & CERTIFICATIONS</h1>
+	<p><i class="fas fa-trophy"></i> Google Analytics Certified Developer<br>
+<i class="fas fa-trophy"></i> Mobile Web Specialist - Google Certification<br>
+<i class="fas fa-trophy"></i> 1st Place - University of Colorado Boulder - Emerging Tech Competition 2009<br>
+<i class="fas fa-trophy"></i> 1st Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)<br>
+<i class="fas fa-trophy"></i> 2nd Place - University of Colorado Boulder - Emerging Tech Competition 2008<br>
+<i class="fas fa-trophy"></i> 1st Place - James Buchanan High School - Hackathon 2006<br>
+<i class="fas fa-trophy"></i> 3rd Place - James Buchanan High School - Hackathon 2005<br>
+	</p>
+</div>
+</section>
+</section>
+<script>
+	function closebtn()
+	{
+		document.getElementById('myslidenav').style.width="0";
+		document.getElementById('myportfolio').style.marginLeft="0";
+	}
+	function openbtn()
+	{
+		document.getElementById("myslidenav").style.width="350px";
+		document.getElementById('myportfolio').style.marginLeft="350px";
+
+	}
+</script>
+</body>
+</html>
